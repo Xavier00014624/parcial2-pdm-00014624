@@ -5,6 +5,7 @@ import androidx.navigation3.runtime.entryProvider
 import androidx.navigation3.runtime.rememberNavBackStack
 import androidx.navigation3.ui.NavDisplay
 import com.pdmcourse2026.basictemplate.screens.home.HomeScreen
+import com.pdmcourse2026.basictemplate.screens.resultados.ResultadosScreen
 
 @Composable
 fun RankeUCA_App() {
@@ -16,6 +17,9 @@ fun RankeUCA_App() {
     entryProvider = entryProvider {
       entry<Routes.Home> {
         HomeScreen()
+      }
+      entry<Routes.Resultados> {
+        ResultadosScreen()
       }
     },
   )
