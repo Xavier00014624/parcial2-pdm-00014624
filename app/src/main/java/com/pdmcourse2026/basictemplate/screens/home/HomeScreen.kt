@@ -1,5 +1,6 @@
 package com.pdmcourse2026.basictemplate.screens.home
 
+import android.service.autofill.OnClickAction
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Button
@@ -29,5 +30,6 @@ fun HomeScreen() {
     Column(modifier = Modifier.padding(innerPadding)) {
       Text(text = "Home Screen")
     }
+
   }
 }
